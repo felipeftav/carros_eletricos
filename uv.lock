@@ -48,6 +48,7 @@ dependencies = [
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "plotly" },
+    { name = "plotly-geo" },
     { name = "requests" },
     { name = "scikit-learn" },
 ]
@@ -61,6 +62,7 @@ requires-dist = [
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=3.0.3" },
     { name = "plotly", specifier = ">=6.9.0" },
+    { name = "plotly-geo", specifier = ">=1.0.0" },
     { name = "requests", specifier = ">=2.34.2" },
     { name = "scikit-learn", specifier = ">=1.9.0" },
 ]
@@ -599,6 +601,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/96/07/795c79dbce40c39bece88e69d049babbd23ffa95b5d117f248db8ea03abb/plotly-6.9.0.tar.gz", hash = "sha256:967ad33e8c704fed051800d11d985eb206a9c795c14206b30a6f463ed9c67d0d", size = 6919903, upload-time = "2026-07-09T14:55:59.982Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/24/18/d8544811ab076f876c4892b3714f5b0dad335e1dc33aef826df431b8325d/plotly-6.9.0-py3-none-any.whl", hash = "sha256:36bebe2f1bb13884774fe61689c329071446f6ce4a8927fb1f0d6fb24f581236", size = 9909646, upload-time = "2026-07-09T14:55:55.421Z" },
+]
+
+[[package]]
+name = "plotly-geo"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/35/4c/38d10312391d45a14048ce8e21deed2fff6ca66397c970a07412221e45dd/plotly-geo-1.0.0.tar.gz", hash = "sha256:422359c859fc1bccfd5baaffd82d23f4ea06686c1822e72f76270c9d7f82d70e", size = 23718591, upload-time = "2019-07-16T16:46:27.28Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/be/c6/be7d476e8c14c318c7b80329317d5dd5d1b876c393c9f8c0363b0dd188b8/plotly_geo-1.0.0-py3-none-any.whl", hash = "sha256:9f695ca0a48494c821d8ab612d33b092bc64ec8de86d021c5209cc0b217aa9ce", size = 23719997, upload-time = "2019-07-16T16:46:21.502Z" },
 ]
 
 [[package]]
